@@ -41,8 +41,8 @@ body, html {
     padding: 40px;
 
     /* Espaçamento entre as seções */
-    margin-top: 20vh; /* 50% da altura da tela */
-    margin-bottom: 20vh;
+    margin-top: 10vh; /* 50% da altura da tela */
+    margin-bottom: 10vh;
     margin-left: 15%; /* Margens laterais */
     margin-right: 15%;
 
@@ -56,4 +56,23 @@ body, html {
     margin-top: 25vh;
 }
 
+/* Estilo para os links de contato */
+.links-contato a {
+    color: #4db8ff; /* Um tom de azul claro */
+    text-decoration: none; /* Tira o sublinhado */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.links-contato a:hover {
+    text-decoration: underline; /* Adiciona sublinhado SÓ quando passa o mouse */
+    color: white;
+}
+
+/* Estilo para os títulos dos projetos */
+.projeto h3 {
+    color: #4db8ff;
+    border-bottom: 1px solid #4db8ff;
+    padding-bottom: 5px;
+}
 
