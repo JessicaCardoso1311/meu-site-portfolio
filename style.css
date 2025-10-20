@@ -1,0 +1,57 @@
+/* Configurações globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* A MÁGICA ACONTECE AQUI */
+.fundo-fixo {
+    /* 1. Coloca a sua imagem */
+    background-image: url('fundo.png'); 
+
+    /* 2. Deixa ela parada (fixa) no fundo */
+    background-attachment: fixed;
+
+    /* 3. Ajusta o tamanho para cobrir a tela toda */
+    background-size: cover;
+
+    /* 4. Centraliza a imagem */
+    background-position: center;
+
+    /* 5. Garante que ela ocupe a tela inteira, o tempo todo */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Coloca ela atrás de todo o conteúdo */
+    z-index: -1; 
+}
+
+/* Estilo para as caixas de conteúdo */
+.secao-conteudo {
+    /* Cor do texto (branco) */
+    color: white; 
+    
+    /* Fundo escuro semi-transparente para facilitar a leitura */
+    background-color: rgba(0, 0, 0, 0.7); 
+
+    /* Espaçamento interno */
+    padding: 40px;
+
+    /* Espaçamento entre as seções */
+    margin-top: 50vh; /* 50% da altura da tela */
+    margin-bottom: 50vh;
+    margin-left: 15%; /* Margens laterais */
+    margin-right: 15%;
+
+    /* Borda arredondada */
+    border-radius: 10px;
+}
+
+/* Estilo para o primeiro bloco, para começar mais cedo */
+.secao-conteudo:first-of-type {
+    margin-top: 25vh;
+}
