@@ -29,10 +29,9 @@ body, html {
     /* Coloca ela atrás de todo o conteúdo */
     z-index: -1; 
 }
-
 /* Estilo para as caixas de conteúdo */
 .secao-conteudo {
-    /* Cor do texto (branco) */
+    /* COR DO TEXTO (BRANCO) - A CORREÇÃO ESTÁ AQUI */
     color: white; 
     
     /* Fundo escuro semi-transparente para facilitar a leitura */
@@ -51,7 +50,9 @@ body, html {
     border-radius: 10px;
 }
 
+
 /* Estilo para o primeiro bloco, para começar mais cedo */
 .secao-conteudo:first-of-type {
     margin-top: 25vh;
 }
+
