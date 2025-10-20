@@ -41,8 +41,8 @@ body, html {
     padding: 40px;
 
     /* Espaçamento entre as seções */
-    margin-top: 10vh; /* 50% da altura da tela */
-    margin-bottom: 10vh;
+    margin-top: 30vh; /* 50% da altura da tela */
+    margin-bottom: 30vh;
     margin-left: 15%; /* Margens laterais */
     margin-right: 15%;
 
@@ -75,4 +75,5 @@ body, html {
     border-bottom: 1px solid #4db8ff;
     padding-bottom: 5px;
 }
+
 
